@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nude">#E29578</color>
+    <color name="pinky">#FFDDD2</color>
+    <color name="wth">#EDF6F9</color>
+    <color name="wthh">#E7F2F6</color>
+    <color name="mirip_ijo">#F2FBF4</color>
+    <color name="ijo">#006D77</color>
+    <color name="ijoooo">#83C5BE</color>
+    <color name="army">#4E6C50</color>
+    <color name="maroon">#8C3333</color>
+    <color name="red">#BD1616</color>
+    <color name="ijo1">#618264</color>
+    <color name="ijo2">#79AC78</color>
+    <color name="ijo3">#B0D9B1</color>
+    <color name="ijobukan">#D0E7D2</color>
+    <color name="krem">#E5E4CC</color>
+</resources>

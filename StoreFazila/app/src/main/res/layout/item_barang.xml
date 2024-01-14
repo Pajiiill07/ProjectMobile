@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="25dp"
+        app:cardCornerRadius="25dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/mirip_ijo"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relativeBrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBarang"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:src="@drawable/monitor"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_style"
+                android:clipToOutline="true"
+                />
+            <TextView
+                android:id="@+id/namaBarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgBarang"
+                android:layout_marginTop="35dp"
+                android:layout_marginStart="20dp"
+                android:text="Nama Barang"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/ketBarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/namaBarang"
+                android:layout_toRightOf="@+id/imgBarang"
+                android:layout_marginStart="20dp"
+                android:text="Keterangan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                android:id="@+id/hargaBarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ketBarang"
+                android:layout_toRightOf="@+id/imgBarang"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Harga : Rp. "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <ImageView
+                android:id="@+id/tagBarang"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/imgBarang"
+                android:layout_below="@+id/hargaBarang"
+                android:src="@drawable/tag"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="60dp"
+                />
+
+            <TextView
+                android:id="@+id/promoBarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hargaBarang"
+                android:layout_toRightOf="@+id/imgBarang"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:text="Promo : Rp. "
+                android:textStyle="bold"
+                android:textColor="@color/ijo1"
+                android:textSize="15sp"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

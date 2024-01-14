@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/wth">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img1Rec"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:clipToOutline="true"
+        android:background="@drawable/border_style"
+        android:layout_centerVertical="true"
+        android:src="@drawable/burgerrr"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBurgerRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/img1Rec"
+        android:text="@string/burger"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtKtrgRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBurgerRec"
+        android:layout_toRightOf="@+id/img1Rec"
+        android:layout_marginStart="20dp"
+        android:text="@string/keterangan"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="@color/blueeee"
+        />
+
+    <TextView
+        android:id="@+id/txtHburgRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger_harga"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@+id/img1Rec"
+        android:layout_marginStart="150dp"
+        android:layout_below="@id/txtKtrgRec"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDeliv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver in 5 minutes"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@+id/img1Rec"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/txtHburgRec"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgDis"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/txtDeliv"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="218dp"
+        android:layout_toRightOf="@+id/img1Rec"
+        android:src="@drawable/price_tag"
+        />
+
+    <TextView
+        android:id="@+id/txtDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50%"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@+id/imgDis"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/txtDeliv"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgRateRec"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/txtDeliv"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="218dp"
+        android:layout_toRightOf="@+id/imgDis"
+        android:src="@drawable/star1"
+        />
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.8"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@+id/imgRateRec"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/txtDeliv"
+        android:layout_marginTop="5dp"
+        />
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nude">#E29578</color>
+    <color name="red">#CC1212</color>
+    <color name="pinky">#FFDDD2</color>
+    <color name="wth">#56C34A</color>
+    <color name="wthh">#E7F2F6</color>
+    <color name="ijo">#006D77</color>
+    <color name="ijoooo">#83C5BE</color>
+</resources>

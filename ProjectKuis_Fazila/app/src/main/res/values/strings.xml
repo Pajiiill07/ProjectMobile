@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kuis_Fazila</string>
+    <string name="transaksi_pembelian_rumah">Transaksi Pembelian Rumah</string>
+    <string name="kode_beli">Kode Beli</string>
+    <string name="inkode_beli">Kode Beli</string>
+    <string name="nama_pembeli">Nama Pembeli</string>
+    <string name="innama_pembeli">Nama Pembeli</string>
+    <string name="harga_rumah">Harga Rumah</string>
+    <string name="inharga_rumah">Harga Rumah</string>
+    <string name="uang_muka">Uang Muka</string>
+    <string name="inuang_muka">Uang Muka</string>
+    <string name="tanggal_bayar">Tanggal Bayar</string>
+    <string name="persentase_diskon">Persentase Diskon</string>
+    <string name="intanggal_pembayar">Tanggal Pembayar</string>
+    <string name="inpersentase_diskon">Persentase Diskon</string>
+    <string name="tipe_rumah">Tipe Rumah</string>
+    <string name="intipe_rumah">Tipe RUmah</string>
+    <string name="jenis_kavling">Jenis Kavling</string>
+    <string name="injenis_kavling">Jenis Kavling</string>
+    <string name="cara_bayar">Cara Bayar</string>
+    <string name="lunas">Lunas</string>
+    <string name="pr_konvensional">PR Konvensional</string>
+    <string name="kpr_syariah">KPR Syariah</string>
+    <string name="bonus">Bonus</string>
+    <string name="kitchen_set">Kitchen Set</string>
+    <string name="taman">Taman</string>
+    <string name="ac_1_pk">AC 1 PK</string>
+    <string name="ac_1_2_pk">AC 1/2 PK</string>
+    <string name="lemari_2_pintu">Lemari 2 Pintu</string>
+    <string name="proses">Proses</string>
+    <string name="transaksi_pembelian">Transaksi Pembelian</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="25dp"
+    app:cardCornerRadius="25dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:src="@drawable/knitdash"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/namaItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mobil"
+        android:textSize="25dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_below="@id/imgItem"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaItem"
+        android:layout_marginBottom="20dp"
+        >
+        <TableRow>
+
+            <TextView
+                android:id="@+id/kodeItem"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Kode :"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+
+            <TextView
+                android:id="@+id/bbItem"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Bahan Bakar : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/HargaItem"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Harga : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                android:id="@+id/KmItem"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="KM :"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/penjualItem"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Penjual : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+
+            <TextView
+                android:id="@+id/tahunItem"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Tahun : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/mesinItem"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Mesin : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+
+            <TextView
+                android:id="@+id/alamatItem"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Alamat"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/wth"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

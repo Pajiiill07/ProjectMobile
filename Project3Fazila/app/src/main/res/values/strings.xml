@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project3Fazila</string>
+    <string name="daftar_makanan">Daftar Makanan</string>
+    <string name="burger">Burger</string>
+    <string name="burger_harga">Price : </string>
+    <string name="keterangan">Keterangan :</string>
+</resources>

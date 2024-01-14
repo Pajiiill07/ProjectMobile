@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddDataBarang">
+
+    <ImageView
+        android:id="@+id/banner1"
+        android:src="@drawable/banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/txtBanner1"
+        android:layout_below="@id/banner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Data Barang"
+        android:textColor="@color/ijo1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/inNama"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txtBanner1"
+        android:background="@drawable/border_style"
+        android:hint="Nama Barang"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/red"
+        android:drawableRight="@drawable/edit"
+        />
+
+    <EditText
+        android:id="@+id/inKet"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/inNama"
+        android:background="@drawable/border_style"
+        android:hint="Keterangan"
+        android:maxLines="3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/red"
+        android:drawableRight="@drawable/save"
+        />
+
+    <EditText
+        android:id="@+id/inGambar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/inKet"
+        android:background="@drawable/border_style"
+        android:hint="Harga Barang"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/red"
+        android:drawableRight="@drawable/price"
+        />
+
+    <EditText
+        android:id="@+id/inHarga"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/inGambar"
+        android:background="@drawable/border_style"
+        android:hint="Link Gambar"
+        android:maxLines="2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/red"
+        android:drawableRight="@drawable/img"
+        />
+
+    <EditText
+        android:id="@+id/inPromo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/inHarga"
+        android:background="@drawable/border_style"
+        android:hint="Promo Barang"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/red"
+        android:drawableRight="@drawable/tagg"
+        />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inPromo"
+        android:backgroundTint="@color/ijo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="SIMPAN DATA"
+        android:textStyle="normal"
+        android:textSize="17sp"
+        android:drawableRight="@drawable/savee"
+        />
+
+</RelativeLayout>
+

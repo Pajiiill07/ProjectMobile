@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpatActivity">
+    
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@android:drawable/btn_star_big_on"
+        />
+    
+    <TextView
+        android:id="@+id/txtJdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:text="Nilai Akhir Mahasiswa"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <EditText
+        android:id="@+id/editNim"
+        android:layout_below="@+id/txtJdl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nim"
+        android:background="@drawable/border_style"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    
+    <Spinner
+        android:id="@+id/spinPrd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editNim"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/border_style"
+        />
+    
+    <EditText
+        android:id="@+id/editUas"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/spinPrd"
+        android:hint="Uas"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:background="@drawable/border_style"
+        />
+    
+    <EditText
+        android:id="@+id/editHarian"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editUas"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Harian"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:background="@drawable/border_style"
+        />
+    
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editHarian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/bluuue"
+        android:text="PROSES"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

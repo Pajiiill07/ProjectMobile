@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Project2Fazila</string>
+    <string name="title">Penjualan Barang</string>
+    <string name="barang">Nama Barang</string>
+    <string name="inbrg">Input Barang</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="injlh">Input Jumlah</string>
+    <string name="satuan">Satuan</string>
+    <string name="insat">Input Satuan</string>
+    <string name="harga">Harga</string>
+    <string name="inhrg">Input Harga</string>
+    <string name="btn">PROSES</string>
+    <string name="output">Transaksi :</string>
+    //Hotel
+    <string name="judul">TRANSAKSI HOTEL</string>
+    <string name="no">No Kamar</string>
+    <string name="inno">Nomor Kamar</string>
+    <string name="hrg">Harga Kamar</string>
+    <string name="inhar">Harga Kamar</string>
+    <string name="tipe">Tipe Kamar</string>
+    <string name="intipe">Tipe Kamar</string>
+    <string name="hari">Jumlah Hari Menginap</string>
+    <string name="inhri">Jumlah Hari</string>
+    <string name="biaya">Biaya Tambahan</string>
+    <string name="inbi">Biaya Tambahan</string>
+    <string name="button">PROSES</string>
+    <string name="Out">Output :</string>
+    //Tiket
+    <string name="title2">Transaksi Tiket</string>
+    <string name="Id">No Id Pelanggan</string>
+    <string name="inId">Id Pelanggan</string>
+    <string name="nama">Nama Pelanggan</string>
+    <string name="inNama">Nama</string>
+    <string name="asal">Kota Asal</string>
+    <string name="inasal">Kota Asal</string>
+    <string name="tujuan">Kota Tujuan</string>
+    <string name="intujuan">Kota Tujuan</string>
+    <string name="hargat">Harga Tiket</string>
+    <string name="inhargat">Harga Tiket</string>
+    <string name="bayar">Cara Bayar</string>
+    <string name="cash">Cash</string>
+    <string name="cc">Credit Card</string>
+    <string name="debit">Debit</string>
+    <string name="Beli">Jumlah Beli</string>
+    <string name="Inbeli">Jumlah Beli</string>
+    <string name="jam">Jam Berangkat</string>
+    <string name="inJam">Jam Berangkat</string>
+    <string name="bagasi">Tamabahan bagasi</string>
+    <string name="koper">Suitcase</string>
+    <string name="Box">Box</string>
+    <string name="Bag">Bag</string>
+    <string name="btnPros">PROSES</string>
+    <string name="Output2">Transaksi Tiket :</string>
+</resources>

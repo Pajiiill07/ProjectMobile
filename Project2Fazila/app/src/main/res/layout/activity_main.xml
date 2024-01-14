@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:text="@string/barang"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="@color/bluee"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:textColor="@color/black"
+        android:hint="@string/inbrg"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBarang"
+        android:text="@string/jumlah"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="@color/bluee"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBarang"
+        android:hint="@string/injlh"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtSatuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJumlah"
+        android:text="@string/satuan"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="@color/bluee"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editSatuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJumlah"
+        android:hint="@string/insat"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSatuan"
+        android:text="@string/harga"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="@color/bluee"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSatuan"
+        android:hint="@string/inhrg"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtHarga"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txtTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnProses"
+        android:text="@string/output"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="@color/bluee"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        />
+
+</RelativeLayout>

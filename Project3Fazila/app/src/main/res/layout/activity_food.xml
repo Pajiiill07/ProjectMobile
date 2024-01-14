@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pajil.project3fazila.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageDashRec"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="120dp"
+        android:src="@drawable/foodd"
+        />
+
+    <TextView
+        android:id="@+id/txtTitleRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar_makanan"
+        android:layout_below="@+id/imageDashRec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="@color/blue"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list1Rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitleRec"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuaActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/judul"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txtNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:text="@string/no"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editNo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtNo"
+        android:hint="@string/inno"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtHrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNo"
+        android:text="@string/hrg"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editHrg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtHrg"
+        android:hint="@string/inno"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtTipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editHrg"
+        android:text="@string/tipe"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginStart="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinTipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTipe"
+        android:hint="@string/intipe"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtHari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinTipe"
+        android:text="@string/hari"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editHari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtHari"
+        android:hint="@string/inhri"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBiaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editHari"
+        android:text="@string/biaya"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editBiaya"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtBiaya"
+        android:hint="@string/inbi"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnProsses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editBiaya"
+        android:text="@string/button"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnProsses"
+        android:text="@string/Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/bluee"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>
+</ScrollView>

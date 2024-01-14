@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title">Politeknik Negeri Padang</string>
+    <string name="matkul">Mata Kuliah</string>
+    <string name="inmat">Enter Mata Kuliah</string>
+    <string name="dosen">Dosen Pengampu</string>
+    <string name="indos">Enter Dosen Pengampu</string>
+    <string name="input">Enter Your Name !</string>
+    <string name="kelas">Enter Your Class !</string>
+    <string name="btn">Submit</string>
+    <string name="output">Data Perkuliahan :</string>
+</resources>
